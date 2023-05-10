@@ -16,7 +16,14 @@ class Player {
   public:
     Player (int ac, int sp, int dri, int shot, int free, int pass, int cur)
     {
-        
-    }
+        acceleration_ = ac;
+        sprint_ = sp;
+        dribble_ = dri;
+        shot_power_ = shot;
+        free_kick_ = free;
+        pass_ = pass;
+        curve_ = cur;
 
-}
+        total_ = (ac + sp + dri + shot + free + pass + cur) / 7;
+    }
+};
