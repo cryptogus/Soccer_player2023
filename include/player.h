@@ -26,4 +26,7 @@ class Player {
 
         total_ = (ac + sp + dri + shot + free + pass + cur) / 7;
     }
+// 선수 능력치를 보여주는 함수
+    void status();
+    
 };
